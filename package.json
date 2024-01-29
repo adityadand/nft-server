@@ -1,34 +1,16 @@
 {
   "name": "nft-server",
-  "version": "1.0.0",
-  "description": "Description of your project",
-  "main": "server.js", // Entry point of your application
-  "scripts": {
-    "start": "node server.js", // Command to start your server
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^6.1.2",
-    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "multer": "^1.4.3",
-    // Add other dependencies as needed
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1"
   },
-  "engines": {
-    "node": ">=14.0.0" // Specify the minimum Node.js version required
+  "scripts": {
+    "start": "node ./server.js",
+    "server": "node server.js",
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/adityadand/nft-server.git" // Replace with your repository URL
-  },
-  "keywords": [
-    "node",
-    "express",
-    "mongodb",
-    "multer",
-    // Add other relevant keywords
-  ],
-  "author": "Your Name",
-  "license": "MIT", // Choose an appropriate license
+
 }
